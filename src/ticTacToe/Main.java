@@ -31,7 +31,7 @@ private int xScore=0, oScore=0;
 	public Main() {
 		setFrame();
 		
-		//title
+// 		title
 		titlePanel = new JPanel();
 		titleLabel = new JLabel("Tic Tac Toe");
 		titleLabel.setFont(titleLabel.getFont().deriveFont(40f));
@@ -268,12 +268,12 @@ private int xScore=0, oScore=0;
 	
 	void setFrame() {
 		//set JFrame
-		setVisible(true); //biar keliatan 
+		setVisible(true); 
 		setLocation(500,300);
-		setSize(700,600); //ukuran framenya
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // biar langsung terminate ketika close GUI
-		setResizable(false); //biar ukuran frame static | tidak bisa diubah	
-		this.getContentPane().setBackground(Color.decode("#2b2b2b"));// cara ubah background frame
+		setSize(700,600); 
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+		setResizable(false); 
+		this.getContentPane().setBackground(Color.decode("#2b2b2b"));
 	}
 
 	public static void main(String[] args) {
